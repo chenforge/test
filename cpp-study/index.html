@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#234e43">
+  <meta name="description" content="�ӵ�һ�г��򵽴�ѧ C++ ���Ŀγ̡���ϸ���⡢������ʾ���κ��Բ�������ϰ������Ҳ��ѧϰ��">
+  <title>C++ ��ϰ�� �� �ѳ���ѧ����</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content-foundation.js" defer></script>
+  <script src="content-university.js" defer></script>
+  <script src="lab.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">��������</a>
+  <header class="topbar">
+    <button class="menu-button" id="menu-toggle" aria-label="��ѧϰĿ¼" aria-expanded="false" aria-controls="sidebar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <a class="brand" href="#/home"><span class="brand-mark" aria-hidden="true">��/��</span><span>C++ ��ϰ��</span></a>
+    <nav class="topnav" aria-label="������"><a href="#/home" data-nav="home">�γ̵�ͼ</a><a href="#/lab" data-nav="lab">����ʵ����</a><a href="#/practice" data-nav="practice">��ϰ��</a></nav>
+    <button class="search-button" id="search-open"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span>����֪ʶ��</span><kbd>Ctrl K</kbd></button>
+  </header>
+  <button class="scrim" id="scrim" aria-label="�ر�ѧϰĿ¼" hidden></button>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-title">ѧϰĿ¼</div>
+    <nav id="chapter-nav" aria-label="�½�Ŀ¼"></nav>
+    <div class="sidebar-bottom"><div class="progress-label"><span id="progress-count">0 / 48</span><span>�������</span></div><div class="progress-track" role="progressbar" aria-label="ѧϰ����" aria-valuemin="0" aria-valuemax="48" aria-valuenow="0"><span id="progress-fill"></span></div><span class="local-note">ѧϰ��¼��������������</span></div>
+  </aside>
+  <main id="main" tabindex="-1"></main>
+  <dialog class="search-dialog" id="search-dialog" aria-labelledby="search-title"><div class="dialog-head"><h2 id="search-title">�ҵ���Ū���׵�֪ʶ��</h2><button class="icon-button" data-close-dialog aria-label="�ر�����">��</button></div><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search-input" type="search" placeholder="���ԣ�ָ�롢�ݹ顢vector��" autocomplete="off"></label><div id="search-results" class="search-results" aria-live="polite"></div><div class="dialog-foot">�����γ̱�������� <span>Esc �ر�</span></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">����������� JavaScript�����ܴ򿪿γ̺ͻ�����ϰ��</p></noscript>
+</body>
+</html>
