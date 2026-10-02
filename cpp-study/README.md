@@ -38,7 +38,7 @@
 
 ## 公开发布
 
-源代码放在公开仓库 [youtubechenyr/test](https://github.com/youtubechenyr/test/tree/main/cpp-study) 的 `cpp-study` 目录。公开网页地址为 [C++ 研习室](https://youtubechenyr.github.io/test/cpp-study/)，需要仓库的 GitHub Pages 部署成功后才能访问。
+源代码放在公开仓库 [chenforge/test](https://github.com/chenforge/test/tree/main/cpp-study) 的 `cpp-study` 目录。公开网页地址为 [C++ 研习室](https://chenforge.github.io/test/cpp-study/)，需要仓库的 GitHub Pages 部署成功后才能访问。
 
 本项目为静态网站，不需要构建步骤。GitHub Pages 使用 `main` 分支的根目录作为发布来源，仓库首页会跳转到 `cpp-study/`。更新网站时需同步课程、脚本、样式和图标，不要只上传 `index.html`。
 
